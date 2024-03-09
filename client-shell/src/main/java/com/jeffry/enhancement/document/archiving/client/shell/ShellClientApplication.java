@@ -1,13 +1,13 @@
-package com.jeffry.enhancement.document.archiving;
+package com.jeffry.enhancement.document.archiving.client.shell;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DocumentArchivingApplication {
+public class ShellClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DocumentArchivingApplication.class, args);
+		SpringApplication.run(ShellClientApplication.class, args);
 	}
 
 }
